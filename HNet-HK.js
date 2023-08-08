@@ -2987,15 +2987,6 @@ document.oncontextmenu = function() {
     return !1
 }
 ;
-document.onkeydown = function(e) {
-    if (e.shiftKey && e.ctrlKey && e.keyCode === 73)
-        return !1;
-    if (e.shiftKey && e.ctrlKey && e.keyCode === 74)
-        return !1;
-    if (e.ctrlKey && e.keyCode === 83 || e.keyCode === 123)
-        return !1
-}
-;
 function vs(e) {
     let t, n, r, s;
     return r = new hs({}),
