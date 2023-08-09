@@ -44,7 +44,7 @@ html, body {
     transform: translate(-50%, -50%);
     color: #fff;
     font-size: 1rem;
-    letter-spacing: 2px;
+    letter-spacing: 2px
 }
 
 .ban.svelte-slrfmz .ban-time.svelte-slrfmz.svelte-slrfmz {
@@ -63,7 +63,7 @@ html, body {
 }
 
 .box.svelte-slrfmz .input-none.svelte-slrfmz.svelte-slrfmz {
-    border-radius: 50 !important
+    border-radius: 50px !important
 }
 
 .box.svelte-slrfmz .choose.svelte-slrfmz.svelte-slrfmz {
