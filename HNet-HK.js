@@ -1,4 +1,4 @@
-[{
+    [{
         icon: "https://api.faviconkit.com/www.youtube.com/",
         name: "Youtube",
         link: "https://www.youtube.com"
