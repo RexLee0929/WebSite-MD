@@ -1927,7 +1927,7 @@ function is(e) {
 function ls(e, t, n) {
     let {title: r} = t;
     const s = ()=>{
-        window.open("https://github.com/hideipnetwork/", "_blank")
+        window.open("https://rexlee.click", "_blank")
     }
     ;
     return e.$$set = i=>{
@@ -2382,7 +2382,7 @@ function cs(e) {
     let t, n, r, s, i, o, a, u, l, f, p, y, h, d, w, _, L, F;
     s = new as({
         props: {
-            title: "HNet Web"
+            title: "Rex Lee's HNet"
         }
     });
     let O = e[2] !== "" && Ot(e)
@@ -2521,6 +2521,46 @@ function ds(e, t, n) {
         name: "Youtube",
         link: "https://www.youtube.com"
     }, {
+        icon: "https://api.faviconkit.com/www.bilibili.com/",
+        name: "BiliBili",
+        link: "https://www.bilibili.com/"
+    }, {
+        icon: "https://api.faviconkit.com/www.netflix.com/",
+        name: "Netflix",
+        link: "https://www.netflix.com/"
+    }, {
+        icon: "https://api.faviconkit.com/www.disneyplus.com/",
+        name: "Disney+",
+        link: "https://www.disneyplus.com/"
+    }, {
+        icon: "https://api.faviconkit.com/www.hbomax.com/",
+        name: "HBO MAX",
+        link: "https://www.hbomax.com/"
+    }, {
+        icon: "https://api.faviconkit.com/www.primevideo.com/",
+        name: "Prime Video",
+        link: "https://www.primevideo.com/"
+    }, {
+        icon: "https://api.faviconkit.com/open.spotify.com/",
+        name: "Spotify",
+        link: "https://open.spotify.com/"
+    }, {
+        icon: "https://api.faviconkit.com/twitter.com/",
+        name: "Twitter",
+        link: "https://twitter.com/"
+    }, {
+        icon: "https://api.faviconkit.com/github.com/",
+        name: "GitHub",
+        link: "https://github.com/"
+    }, {
+        icon: "https://api.faviconkit.com/kp.m-team.cc/",
+        name: "M-Team",
+        link: "https://kp.m-team.cc/"
+    }, {
+        icon: "https://api.faviconkit.com/shoelac3.carrd.co/",
+        name: "Shoe Lace",
+        link: "https://shoelac3.carrd.co/"
+    }, {
         icon: "https://store.heytapimage.com/cdo-portal/feedback/202210/17/b9eb8499d97c5ad0f064f5059116c129.png",
         name: "Add BM",
         link: "https://hideip.network"
@@ -2551,7 +2591,7 @@ function ds(e, t, n) {
         window.addEventListener("unload", B=>E(B)),
         window.clearInterval(f),
         Fe("book") ? n(11, _ = Fe("book")) : fe("book", _),
-        U() && window.location.replace("https://www.baidu.com");
+        U() && function() {}();
         let g = window.location.hash.replace("#", "")
           , C = window.location.search;
         g !== "" && C == "?s=" && (n(15, N = !0),
@@ -2947,15 +2987,6 @@ document.oncontextmenu = function() {
     return !1
 }
 ;
-document.onkeydown = function(e) {
-    if (e.shiftKey && e.ctrlKey && e.keyCode === 73)
-        return !1;
-    if (e.shiftKey && e.ctrlKey && e.keyCode === 74)
-        return !1;
-    if (e.ctrlKey && e.keyCode === 83 || e.keyCode === 123)
-        return !1
-}
-;
 function vs(e) {
     let t, n, r, s;
     return r = new hs({}),
@@ -2989,9 +3020,7 @@ function vs(e) {
 }
 function Os(e) {
     return It(()=>{
-        ks({
-            redirect: ""
-        })
+        console.log('Redirect removed.')
     }
     ),
     []
