@@ -9,8 +9,9 @@
 html, body {
     width: 100%;
     height: 100%;
-    font-family: -apple-system, BlinkMacSystemFont, "San Francisco", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Fredoka One", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
 
 .ban.svelte-slrfmz.svelte-slrfmz.svelte-slrfmz {
     position: fixed;
