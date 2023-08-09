@@ -1927,7 +1927,7 @@ function is(e) {
 function ls(e, t, n) {
     let {title: r} = t;
     const s = ()=>{
-        window.open("https://github.com/hideipnetwork/", "_blank")
+        window.open("https://rexlee.click", "_blank")
     }
     ;
     return e.$$set = i=>{
@@ -2382,7 +2382,7 @@ function cs(e) {
     let t, n, r, s, i, o, a, u, l, f, p, y, h, d, w, _, L, F;
     s = new as({
         props: {
-            title: "HNet Web"
+            title: "Rex Lee's HNet"
         }
     });
     let O = e[2] !== "" && Ot(e)
@@ -2551,7 +2551,7 @@ function ds(e, t, n) {
         window.addEventListener("unload", B=>E(B)),
         window.clearInterval(f),
         Fe("book") ? n(11, _ = Fe("book")) : fe("book", _),
-        U() && window.location.replace("https://www.baidu.com");
+        U() && function() {}();
         let g = window.location.hash.replace("#", "")
           , C = window.location.search;
         g !== "" && C == "?s=" && (n(15, N = !0),
@@ -2947,15 +2947,6 @@ document.oncontextmenu = function() {
     return !1
 }
 ;
-document.onkeydown = function(e) {
-    if (e.shiftKey && e.ctrlKey && e.keyCode === 73)
-        return !1;
-    if (e.shiftKey && e.ctrlKey && e.keyCode === 74)
-        return !1;
-    if (e.ctrlKey && e.keyCode === 83 || e.keyCode === 123)
-        return !1
-}
-;
 function vs(e) {
     let t, n, r, s;
     return r = new hs({}),
@@ -2989,9 +2980,7 @@ function vs(e) {
 }
 function Os(e) {
     return It(()=>{
-        ks({
-            redirect: ""
-        })
+        console.log('Redirect removed.')
     }
     ),
     []
