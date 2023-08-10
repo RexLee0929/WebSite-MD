@@ -468,7 +468,7 @@ html, body {
     width: 100%;
     height: 100%;
     overflow: hidden;
-    background-image: url(./18ChineseNewYear4_4k.jpg);
+    background-image: url(./wlop/18ChineseNewYear4_4k.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -479,29 +479,29 @@ html, body {
 
 @keyframes svelte-hm5ey0-animation {
     0% {
-        background-image: url(./2_Stella3_4k.jpg)
+        background-image: url(./wlop/2_Stella3_4k.jpg)
     }
 
     25% {
-        background-image: url(./21_Lunarnewyear3_4k.jpg)
+        background-image: url(./wlop/21_Lunarnewyear3_4k.jpg)
     }
     
     50% {
-        background-image: url(./18ChineseNewYear4_4k.jpg)
+        background-image: url(./wlop/18ChineseNewYear4_4k.jpg)
     }
     
     75% {
-        background-image: url(./42_Destination1_4k.jpg)
+        background-image: url(./wlop/42_Destination1_4k.jpg)
     }
 
     to {
-        background-image: url(./8_Makeup2_4k.jpg)
+        background-image: url(./wlop/8_Makeup2_4k.jpg)
     }
 }
 
 @media screen and (max-width: 768px) {
     .container.svelte-hm5ey0 {
-        background-image: url(./18ChineseNewYear4_4k.jpg);
+        background-image: url(./wlop/18ChineseNewYear4_4k.jpg);
         background-position: right;
         background-size: cover;
         background-repeat: no-repeat
