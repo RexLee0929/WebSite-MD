@@ -474,7 +474,7 @@ html, body {
     background-attachment: fixed;
     background-size: cover;
     z-index: -1;
-    animation: svelte-hm5ey0-animation 300s ease-in infinite alternate
+    animation: svelte-hm5ey0-animation 180s ease-in infinite alternate
 }
 
 @keyframes svelte-hm5ey0-animation {
@@ -501,7 +501,7 @@ html, body {
 
 @media screen and (max-width: 768px) {
     .container.svelte-hm5ey0 {
-        background-image: url(./3-07c1f28e.webp);
+        background-image: url(./18ChineseNewYear4_4k.jpg);
         background-position: right;
         background-size: cover;
         background-repeat: no-repeat
