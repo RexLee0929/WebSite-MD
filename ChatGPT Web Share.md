@@ -194,6 +194,8 @@ docker-compose up -d
 
 
 
+## 相关链接
+
 <table border="1">
   <tr>
     <th>开发者</th>
@@ -223,7 +225,6 @@ docker-compose up -d
     <td><a href="https://github.com/linweiyuan/go-chatgpt-api">go-chatgpt-api</a></td>
   </tr>
 </table>
-
 <table border="1">
   <tr>
     <td>
@@ -247,6 +248,13 @@ docker-compose up -d
         <img src="https://avatars.githubusercontent.com/u/49076004?v=4" alt="linweiyuan" style="width:170px;"><br>
         linweiyuan
       </a>
+      <hr>
+      <a href="https://github.com/linweiyuan/go-chatgpt-api">go-chatgpt-api</a>
+    </td>
+  </tr>
+</table>
+
+
       <hr>
       <a href="https://github.com/linweiyuan/go-chatgpt-api">go-chatgpt-api</a>
     </td>
